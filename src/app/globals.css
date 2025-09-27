@@ -1,1 +1,12 @@
 @import 'tailwindcss';
+
+@theme inline {
+  --font-onest: var(--font-onest);
+}
+
+@theme {
+  --color-primary-blue: #0c6aae;
+  --color-primary-blue-light: #c2e2fe;
+  --color-primary-blue-dark: #004475;
+  --color-primary-blue-darkest: #0e325b;
+}
