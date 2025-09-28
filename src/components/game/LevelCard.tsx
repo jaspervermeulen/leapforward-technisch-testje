@@ -1,7 +1,7 @@
 import avatar from '@/assets/avatar.png';
 
 import Image from 'next/image';
-import Button from '../ui/Button';
+import Button from '@/components/ui/Button';
 
 interface LevelCardProps {
   name: string;
