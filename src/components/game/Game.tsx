@@ -2,11 +2,11 @@
 
 import { useSearchParams, useRouter } from 'next/navigation';
 import { useCallback, useEffect, useState } from 'react';
-import Button from '../ui/Button';
+import Button from '@/components/ui/Button';
 import { useGame } from '@/context/GameContext';
 import AnswerButton from '@/components/game/Anwser';
 import Timer from '@/components/game/Timer';
-import ScoreBadge from './ScoreBadge';
+import ScoreBadge from '@/components/game/ScoreBadge';
 
 interface Answer {
   answer: string;
